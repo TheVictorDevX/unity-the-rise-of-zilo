@@ -85,6 +85,9 @@ public class Spikehead : EnemyDamage
     private bool attacking;
     private bool returning; // New state
 
+    [Header("SFX")]
+    [SerializeField] private AudioClip impactSound;
+
     private void Awake()
     {
         initialPosition = transform.position; // Save the starting spot
@@ -155,7 +158,7 @@ public class Spikehead : EnemyDamage
     {
         // Don't "Stop" if we just touched the player while returning
         //if (returning && collision.CompareTag("Player")) return;
-
+        SoundManager.instance.PlaySound(impactSound);
         base.OnTriggerEnter2D(collision);
         Stop();
     }
