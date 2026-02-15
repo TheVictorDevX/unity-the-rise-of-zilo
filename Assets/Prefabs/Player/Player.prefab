@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 1023191284863608511}
   - component: {fileID: 4564994716182033731}
   - component: {fileID: 2156428516067133075}
+  - component: {fileID: 7159311975947951336}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -287,3 +288,16 @@ MonoBehaviour:
   - {fileID: 5581012593330197112}
   deathSound: {fileID: 8300000, guid: b4f4df2ba3b91eb45b590d89702e42db, type: 3}
   hurtSound: {fileID: 8300000, guid: 147f2828dcb0bbe49acaafc3a59a4388, type: 3}
+--- !u!114 &7159311975947951336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913802711466657146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b651fc991ec0f46b5d3136e4a012b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
+  checkpointSound: {fileID: 8300000, guid: 7dcc17970671e3e4eb6c61134895e934, type: 3}

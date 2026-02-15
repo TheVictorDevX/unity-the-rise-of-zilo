@@ -14,4 +14,10 @@ public class CameraController : MonoBehaviour
     {
         transform.position=new Vector3(player.position.x, transform.position.y, transform.position.z);
     }
+
+    public void SnapToPlayer()
+    {
+        // This instantly aligns the camera with the player's X position
+        transform.position = new Vector3(player.position.x, transform.position.y, transform.position.z);
+    }
 }
