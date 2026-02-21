@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 4564994716182033731}
   - component: {fileID: 2156428516067133075}
   - component: {fileID: 7159311975947951336}
+  - component: {fileID: 78892462788315150}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -301,3 +302,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
   checkpointSound: {fileID: 8300000, guid: 7dcc17970671e3e4eb6c61134895e934, type: 3}
+--- !u!114 &78892462788315150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8913802711466657146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1dee564abac684c8e40fc9954734f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerWin
